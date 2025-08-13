@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты</title>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="container">
+      <h1>Контакты</h1>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="main-content">
+      <img src="../img/fon2.jpg" alt="Декор" class="decor">
+      
+      <h2>💌 Свяжитесь с нами</h2>
+      <p class="contact-subtitle">Мы всегда рады помочь и ответить на ваши вопросы!</p>
+      
+      <div class="contact-layout">
+        <div class="contact-form-wrapper">
+          <h3>📝 Отправить сообщение</h3>
+          <form class="contact-form">
+            <div class="input-group">
+              <label for="fio">👤 ФИО:</label>
+              <input type="text" id="fio" name="fio" required placeholder="Введите ваше полное имя">
+            </div>
+            
+            <div class="input-group">
+              <label for="phone">📱 Номер телефона:</label>
+              <input type="tel" id="phone" name="phone" required pattern="[0-9\-\+\s\(\)]{7,20}" placeholder="+380 XX XXX XX XX">
+            </div>
+            
+            <div class="input-group">
+              <label for="email">✉️ Email:</label>
+              <input type="email" id="email" name="email" required placeholder="your@email.com">
+            </div>
+            
+            <div class="input-group">
+              <label for="message">💭 Сообщение:</label>
+              <textarea id="message" name="message" rows="4" placeholder="Расскажите, как мы можем помочь..."></textarea>
+            </div>
+            
+            <button type="submit" class="button button-primary">🚀 Отправить сообщение</button>
+          </form>
+        </div>
+        
+        <div class="contact-info-wrapper">
+          <h3>📞 Наши контакты</h3>
+          <div class="contact-cards">
+            <div class="contact-card">
+              <div class="contact-icon">✉️</div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <p>info@colorfulsite.com</p>
+                <p>support@colorfulsite.com</p>
+              </div>
+            </div>
+            
+            <div class="contact-card">
+              <div class="contact-icon">📱</div>
+              <div class="contact-details">
+                <h4>Телефон</h4>
+                <p>+380 96 78 58 00</p>
+                <p>+380 50 123 45 67</p>
+              </div>
+            </div>
+            
+            <div class="contact-card">
+              <div class="contact-icon">🏢</div>
+              <div class="contact-details">
+                <h4>Адрес</h4>
+                <p>ул. Бориса Гмири, 17</p>
+                <p>Киев, Украина</p>
+              </div>
+            </div>
+            
+            <div class="contact-card">
+              <div class="contact-icon">⏰</div>
+              <div class="contact-details">
+                <h4>Время работы</h4>
+                <p>Пн-Пт: 9:00 - 18:00</p>
+                <p>Сб-Вс: 10:00 - 16:00</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="social-links">
+            <h4>🌐 Мы в социальных сетях</h4>
+            <div class="social-buttons">
+              <a href="https://facebook.com" target="_blank" class="social-btn facebook">📘 Facebook</a>
+              <a href="https://instagram.com" target="_blank" class="social-btn instagram">📸 Instagram</a>
+              <a href="https://t.me" target="_blank" class="social-btn telegram">✈️ Telegram</a>
+              <a href="https://youtube.com" target="_blank" class="social-btn youtube">📺 YouTube</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="back-button-wrapper">
+        <button class="button" onclick="location.href='../index.html'">🏠 На главную</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <div class="container">
+      <p>&copy; Домашнее Задание 3</p>
+    </div>
+  </div>
+</body>
+
+</html>

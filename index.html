@@ -4,21 +4,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Домашнее задание 2. CSS</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Главная - Красочный сайт</title>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+  <!-- Floating particles for animation -->
+  <div class="floating-particles">
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+  </div>
 
-<div class="main">
-
-  <h1>Таблицы</h1>
-
-  <p>Здесь будем делать таблицы</p>
-
-  <a href="table1.html">Задание 1</a>
-  <a href="table2.html">3адание 2</a>
-
-</div>
-
+  <div class="header">
+    <div class="container">
+      <h1>Добро пожаловать!</h1>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="main-content">
+      <img src="img/fon2.jpg" alt="Декор" class="decor">
+      <h2>Велком</h2>
+      <div class="nav-buttons">
+        <button class="button" onclick="location.href='pages/about.html'">О нас</button>
+        <button class="button" onclick="location.href='pages/articles.html'">Статьи</button>
+        <button class="button" onclick="location.href='pages/gallery.html'">Галерея</button>
+        <button class="button" onclick="location.href='pages/contacts.html'">Контакты</button>
+      </div>
+      <p class="welcome-message">Этот сайт создан для вдохновения и творчества!</p>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <div class="container">
+      <p>&copy; Домашнее Задание 3</p>
+    </div>
+  </div>
 </body>
 </html>
